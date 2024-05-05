@@ -1,0 +1,96 @@
+/* 
+    bg-color: rgb(234-237-240)
+    text-color: black
+    blue: rgb(76-100-242)
+    light-blue: rgb(128-276-255)
+*/
+
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+input {
+    font-family: "Modimi One", sans-serif;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+}
+
+h1 { 
+    font-family: "Modimi One", sans-serif;;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+}
+body {
+    padding: 15px;
+    font-family: "Modimi One", sans-serif;
+    background-color: rgb(3, 69, 105);
+}
+
+.panel {
+    background-color: rgb(5, 174, 189);
+    padding: 15px;
+    border-radius: 15px;
+    justify-content: center;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 25px;
+    background-color: rgba(80, 2, 182, 0.374);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.controls{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.text-input{
+    width: 100%;
+}
+
+.translation-result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120px;
+}
+
+.translation{
+    background-color: white;
+    margin-bottom: 16px;
+}
+
+.translation-text{
+    font-size: 30px;
+}
+
+.translation-flag{
+    font-size: 32px;
+    position: absolute;
+}
